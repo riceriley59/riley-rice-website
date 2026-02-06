@@ -1,0 +1,15 @@
+# MacOS garbage
+.DS_Store
+
+# Typescript / Framework
+dist/
+.svelte-kit/
+node_modules/
+
+# env files (except example env)
+.env
+.env.*
+!.env.example
+
+# log files
+*.log
