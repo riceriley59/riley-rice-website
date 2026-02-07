@@ -7,6 +7,7 @@
 		<a href="/" class:active={$page.url.pathname === '/'}>Home</a>
 		<a href="/about" class:active={$page.url.pathname.startsWith('/about')}>About</a>
 		<a href="/blog" class:active={$page.url.pathname.startsWith('/blog')}>Blog</a>
+		<a href="/contact" class:active={$page.url.pathname.startsWith('/Contact')}>Contact</a>
 	</nav>
 
 	<main>
